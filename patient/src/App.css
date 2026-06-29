@@ -136,10 +136,75 @@ font-style: Regular;
 font-size: 16px;
 leading-trim: NONE;
 line-height: 24px;
-letter-spacing: 0px
+letter-spacing: 0px;
 color: #314158;
+}
+.download-btn{
+width: 130.0124969482422;
+height: 40;
+border-radius: 10px;
+angle: 0 deg;
+opacity: 1;
+background: #F1F5F9;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+color: #314158;
+}
+.image1{
+  width: 6.666666507720947;
+height: 3.3333332538604736;
+border-width: 1.33px;
+angle: 0 deg;
+opacity: 1;
+top: 6.67px;
+left: 4.67px;
+border: 1.33px solid #314158
+}
+.presciptions-page{
+width: 1278.4000244140625;
+height: 665.6000366210938;
+angle: 0 deg;
+opacity: 1;
+padding-top: 24px;
+padding-right: 24px;
+padding-left: 24px;
+}
+.prescription-title{
+  width: 175;
+height: 36;
+angle: 0 deg;
+opacity: 1;
+top: 0.4px;
+font-family: Segoe UI;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+leading-trim: NONE;
+line-height: 36px;
+letter-spacing: -0.75px;
+color: #0F172B;
+}
+.prescription-subtitle{
+  width: 258;
+height: 26;
+angle: 0 deg;
+opacity: 1;
+top: -0.4px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 25.6px;
+letter-spacing: 0px;
+color: #45556C;
 
 }
-
 
 

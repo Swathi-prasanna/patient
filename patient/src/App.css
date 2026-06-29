@@ -204,7 +204,157 @@ leading-trim: NONE;
 line-height: 25.6px;
 letter-spacing: 0px;
 color: #45556C;
-
+}
+.prescription-card{
+  width: 1230.4000244140625;
+height: 232.40000915527344;
+gap: 16px;
+angle: 0 deg;
+opacity: 1;
+padding-top: 24.8px;
+padding-right: 24.8px;
+padding-bottom: 0.8px;
+padding-left: 24.8px;
+border-radius: 16.4px;
+border-width: 0.8px;
+background: #FFFFFF;
+border-top: 0.8px solid #E2E8F0;
+box-shadow: 0px 1px 2px -1px #0000001A;
+box-shadow: 0px 1px 3px 0px #0000001A;
+}
+.pres-title{
+  font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0px;
+color: #0F172B;
+}
+.prescription-list{
+  width: 1180.800048828125;
+height: 138.8000030517578;
+gap: 12px;
+angle: 0 deg;
+opacity: 1;
+padding-top: 16.8px;
+padding-right: 16.8px;
+padding-bottom: 0.8px;
+padding-left: 16.8px;
+border-radius: 10px;
+border-width: 0.8px;
+border-top: 0.8px solid #E2E8F0;
+}
+.medicine-name{
+ width: 219.33750915527344;
+height: 26;
+angle: 0 deg;
+opacity: 1;
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 25.2px;
+letter-spacing: 0px;
+color: #0F172B;
+}
+.doctor-name{
+width: 220;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+top: -1.2px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+color: #45556C;
+}
+.active-badge{
+font-family: Segoe UI;
+font-weight: 600;
+font-style: Semibold;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 18px;
+letter-spacing: 0px;
+color: #008236;
+background: #DCFCE7;
+}
+.details-bill{
+width: 47;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+top: -0.2px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0px;
+color: #45556C;
+}
+.detail-daily{
+  width: 77;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+top: -1.2px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+color: #314158;
 }
 
+.details-hours{
+  width: 55;
+height: 20;
+angle: 0 deg;
+opacity: 1;
+top: -0.2px;
 
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0px;
+color: #45556C;
+}
+.detail-days{
+  width: 54;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+top: -1.2px;
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+color: #314158;
+}
+.detail-date{
+font-family: Segoe UI;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+color: #314158;
+}

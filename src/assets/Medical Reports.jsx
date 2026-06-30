@@ -9,6 +9,8 @@ const MedicalReports = () => {
             <p className="medical-subheading">"Access your complete medical history"</p>
       </div>
     </div>
+    </div>
+      
   );
 };
 

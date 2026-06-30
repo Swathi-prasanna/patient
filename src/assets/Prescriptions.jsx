@@ -1,8 +1,8 @@
 import React from "react";
 function Prescriptions() {
     return(
-        <div className="container-fluid presciptions-page py-4">
-            <h2 className="prescription-title">Prescriptions</h2>
+        <div className="container-fluid prescriptions-page py-4">
+            <h2 className="prescriptions-title">Prescriptions</h2>
             <p className="prescription-subtitle">View and manage your prescriptions</p>
             <div className="prescription-card shadow-sm">
                 <div className="prescription-body">

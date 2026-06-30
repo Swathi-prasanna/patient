@@ -6,6 +6,7 @@ import Prescriptions from "./assets/Prescriptions";
 import MedicalReport from "./assets/MedicalReports";
 import Dispensingpage from "./assets/Prescriptions";
 import Appointment from "./assets/Appointment";
+import LabReport from "./assets/LabReport";
 function App() {
   return (
     <div className="app-layout">
@@ -17,6 +18,7 @@ function App() {
           <Route path="/PrescriptionPage" element={<Appointment />} />
           <Route path="/Inventorypage" element={<MedicalReport />}  />
           <Route path="/DispensingPa" element={<Prescriptions />} />
+          <Route path="DispensingPge" element={<LabReport />} />
 
         </Routes>
       </div>

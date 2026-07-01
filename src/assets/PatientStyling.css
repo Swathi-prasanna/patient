@@ -1412,6 +1412,166 @@ padding-left: 16px;
 background: #00A6F4;
 color: #FFFFFF;
 }
+.mydocuments-page{
+width:100%;
+min-height:100vh;
+padding:24px;
+background:#F8FAFC;
+}
+.page-title{
+width: 205px;
+height: 36px;
+opacity: 1;
+top: 0.4px;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: -0.75px;
+color: #0F172B;
+}
+.page-subtitle{
+width: 458px;
+height: 26px;
+opacity: 1;
+top: -0.4px;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 25.6px;
+letter-spacing: 0px;
+color: #45556C;
+margin-top:5px;
+}
+.upload-btn{
+width: 188px;
+height: 40px;
+opacity: 1;
+border-radius: 10px;
+background: #00A6F4;
+color: #FFFFFF;
+}
+.upload-btn:hover{
+background: #00A6F4;
+color: #FFFFFF;
+}
+.summary-card{
+width:100%;
+min-height:110px;
+background:#fff;
+border:1px solid #E2E8F0;
+border-radius:16px;
+padding:20px;
+box-shadow:0 1px 3px rgba(0,0,0,.08);
+}
+.summary-title{
+width: 119px;
+height: 24px;
+opacity: 1;
+top: -1.2px;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #45556C;
+margin-bottom:12px;
+}
+.documents-box{
+width:100%;
+background:#fff;
+border:1px solid #E2E8F0;
+border-radius:16px;
+padding:24px;
+margin-top:20px;}
+.section-title{
+width:232px;
+height:28px;
+opacity: 1;
+top: 0.8px;
+margin-bottom:25px;
+font-weight: 600;
+font-style: Semibold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0px;
+color: #0F172B;
+}
+.document-card{
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color:#0F172B;
+margin-bottom:18px;
 
+}
+.file-icon{
+width: 48px;
+height: 48px;
+opacity: 1;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+font-size:24px;
+margin-right:18px;
+}
+.document-name{
+font-weight: 600;
+font-style: Semibold;
+font-size: 18px;
+line-height: 25.2px;
+letter-spacing: 0px;
+color: #0F172B;
+margin-bottom:8px;
+}
+.document-meta{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color: #45556C;
+margin-bottom:8px;
+}
+.document-note{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+clor: #45556C;
+margin-bottom:0;
+}
+.btn-light{
+background: #F1F5F9;
+color: #314158;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+}
+.btn-light:hover{
+background: #F1F5F9;
+}
 
+@media(max-width:768px){
 
+.document-card{
+    flex-direction:column;
+    align-items:flex-start !important;
+}
+
+.document-card .btn{
+    margin-top:15px;
+}
+
+.upload-btn{
+    margin-top:15px;
+}
+
+}

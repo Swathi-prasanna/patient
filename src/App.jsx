@@ -8,6 +8,7 @@ import Dispensingpage from "./assets/Prescriptions";
 import Appointment from "./assets/Appointment";
 import LabReport from "./assets/LabReport";
 import Billpayment from "./assets/Billpayment";
+import MyDocuments from "./assets/MyDocuments";
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
           <Route path="/Inventorypage" element={<MedicalReport />}  />
           <Route path="/DispensingPa" element={<Prescriptions />} />
           <Route path="/DispensingPge" element={<LabReport />} />
+          <Route path="/upload" element={<MyDocuments />} />
           <Route path="/DispensigPage" element={<Billpayment />} />
-
         </Routes>
       </div>
     </div>

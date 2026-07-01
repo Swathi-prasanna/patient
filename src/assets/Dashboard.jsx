@@ -1,12 +1,15 @@
-import React from "react";
 import { CiCalendar } from "react-icons/ci";
 import { FaRegFileAlt } from "react-icons/fa";
 import { TbActivityHeartbeat } from "react-icons/tb";
 import { LuCreditCard } from "react-icons/lu";
 import { FaRegBell } from "react-icons/fa";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import React, { useState } from "react";
+import BookAppointmentModal from "./BookAppointmentModal";
+
 
 const Dashboard = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="container bg-light">
       <div className="welcome-card">
@@ -18,10 +21,10 @@ const Dashboard = () => {
             </p>
           </div>
           <div>
-            <button className="appointment-btn">
+            <button className="appointment-btn" onClick={() => setShowModal(true)}>
               <CiCalendar size={20} color="white" />
               Book Appointment
-            </button>
+            </button> 
           </div>
         </div>
       </div>

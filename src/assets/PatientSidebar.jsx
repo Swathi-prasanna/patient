@@ -13,6 +13,8 @@ import { RiCapsuleLine } from "react-icons/ri";
 import { LuTestTube } from "react-icons/lu";
 import { FiDollarSign } from "react-icons/fi";
 import { FaRegFileAlt } from "react-icons/fa";
+import { MdOutlineFileUpload } from "react-icons/md";
+
 
 const PatientSidebar = () => {
   return (
@@ -91,6 +93,19 @@ const PatientSidebar = () => {
               </span>
             </NavLink>
             <NavLink
+              to="/upload"
+              className={({ isActive }) =>
+                isActive ? "sidebar-items active-menu" : "sidebar-items"
+              }
+            >
+              <span >
+                <MdOutlineFileUpload size={20}/>
+                &nbsp; My Documents
+              </span>
+          
+             </ NavLink>
+            
+            <NavLink
               to="/DispensigPage"
               className={({ isActive }) =>
                 isActive ? "sidebar-items active-menu" : "sidebar-items"
@@ -100,8 +115,9 @@ const PatientSidebar = () => {
                 <FiDollarSign size={20}/>
                 &nbsp; Billing & Payments
               </span>
+               
             </NavLink>
-          </div>
+            </div>
         </div>
       </nav>
       <div className="sidebar-footer position-fixed">

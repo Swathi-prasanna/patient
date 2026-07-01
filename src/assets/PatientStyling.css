@@ -1029,7 +1029,6 @@ border-top: 0.8px solid #E2E8F0;
 }
 .report-title{
 width: 343.7375183105469;
-angle: 0 deg;
 opacity: 1;
 font-weight: 600;
 font-style: Semibold;
@@ -1133,9 +1132,8 @@ letter-spacing: 0px;
 color: #45556C;
 }
 .bill-card {
-width: 1230.4000244140625;
-height: 208.40000915527344;
-angle: 0 deg;
+width: 1230px;
+height: 208px;
 opacity: 1;
 padding-top: 24.8px;
 padding-right: 24.8px;
@@ -1153,7 +1151,6 @@ box-shadow: 0px 1px 3px 0px #0000001A;
 width: 1180.800048828125;
 height: 158.8000030517578;
 gap: 16px;
-angle: 0 deg;
 opacity: 1;
 padding-top: 16.8px;
 padding-right: 16.8px;
@@ -1181,11 +1178,10 @@ color: #0F172B;
 margin-bottom: 5px;
 }
 .bill-date{
-  width: 82;
-height: 24;
+width: 82px;
+height: 24px;
 opacity: 1;
 top: -1.2px;
-font-family: Segoe UI;
 font-weight: 400;
 font-style: Regular;
 font-size: 16px;
@@ -1211,7 +1207,6 @@ width: 47;
 height: 24;
 opacity: 1;
 top: -1.2px;
-ont-family: Segoe UI;
 font-weight: 400;
 font-style: Regular;
 font-size: 16px;
@@ -1291,7 +1286,6 @@ color: #45556C;
 .appointments-button{
 width: 231px;
 height: 40px;
-angle: 0 deg;
 opacity: 1;
 border-radius: 10px;
 background: #00A6F4;
@@ -1303,3 +1297,121 @@ line-height: 24px;
 letter-spacing: 0px;
 text-align: center;
 }
+.appointments-card{
+width: 1230px;
+height: 156px;
+opacity: 1;
+border-radius: 16.4px;
+border-width: 0.8px;
+padding-top: 24.8px;
+padding-right: 24.8px;
+padding-bottom: 0.8px;
+padding-left: 24.8px;
+background: #FFFFFF;
+border-top: 0.8px solid #E2E8F0;
+box-shadow: 0px 1px 2px -1px #0000001A;
+box-shadow: 0px 1px 3px 0px #0000001A;
+}
+.card-body{
+width: 1147.2000732421875;
+height: 73.20000457763672;
+justify-content: space-between;
+opacity: 1;
+padding-right: 0px;
+}
+.appointments-left{
+display:flex;
+align-items:center;
+}
+.appointments-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
+border:1px solid #E5E7EB;
+border-radius:12px;
+padding:18px;
+width:100%;
+}
+.appointments-date-box{
+width: 64px;
+height: 64px;
+gap: 0px;
+opacity: 1;
+border-radius: 10px;
+padding-bottom: 0.01px;
+background: linear-gradient(135deg, #00BCFF 0%, #00D5BE 100%);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.appointments-details{
+width: 217px;
+height: 73px;
+gap: 16px;
+opacity: 1;
+margin-left:15px;
+}
+.appointments-date-box small{
+width: 20px;
+height: 15px;
+opacity: 1;
+margin:0;
+}
+.appointments-date-box small h4{
+width: 100px;
+height: 28px;
+opacity: 1;
+margin:0;
+}
+.appointments-doctor{
+font-weight: 600;
+font-style: Semibold;
+font-size: 18px;
+line-height: 25.2px;
+letter-spacing: 0px;
+color: #0F172B;
+margin-bottom:2px;
+white-space:nowrap;
+margin-bottom:4px;
+}
+.appointments-department{
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #45556C;
+}
+.appointments-time{
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+}
+.appointments-actions{
+display:flex;
+align-items:center;
+gap:12px;
+width:auto;
+height:auto;
+background:none;
+flex-shrink:0;
+}
+.appointments-join-btn{
+width: 114px;
+height: 40px;
+gap: 8px;
+opacity: 1;
+border-radius: 10px;
+padding-top: 8px;
+padding-right: 16px;
+padding-bottom: 8px;
+padding-left: 16px;
+background: #00A6F4;
+color: #FFFFFF;
+}
+
+
+

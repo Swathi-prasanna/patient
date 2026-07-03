@@ -1250,6 +1250,11 @@ opacity: 1;
 padding-top: 24px;
 padding-right: 24px;
 padding-left: 24px;
+display: block !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+gap: 0 !important;
+
 }
 .appointments-header{
 width: 1230px;

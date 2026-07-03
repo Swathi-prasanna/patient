@@ -7,10 +7,19 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import React, { useState } from "react";
 
 
+
 const Dashboard = () => {
   const [showModal, setShowModal] = useState(false);
+  const [showRescheduleModal, setShowRescheduleModal] = useState(false);
+
+  const currentAppointment = {
+    doctor: "Dr. James Wilson",
+    department: "General Medicine",
+    date: "Jan 3, 2026",
+    time: "9:00 AM"
+  };
   return (
-    <div className="container bg-light">
+    <div className="dashboard-page">
       <div className="welcome-card">
         <div className="welcome-inner-data">
           <div className="welcome-data">
@@ -61,8 +70,8 @@ const Dashboard = () => {
         <div className="dashboard-inner-cards">
           <h2 className="card-heading">Next Appointment</h2>
           <div className="dashboard-inner-card">
-            <div className="container dashboard-card-data">
-              <div className="container icon">
+            <div className="dashboard-card-data">
+              <div className="icon">
                 <CiCalendar size={30} color="#FFFFFF" />
               </div>
               <div className="dashboard-inner-data">
@@ -71,13 +80,13 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="dashboard-inner-data1">
-              <div className="container">
+              <div className="">
                 <div className="dashboard-inner-data2">
                   <p>Date</p>
                   <p>Jan 3, 2026</p>
                 </div>
               </div>
-              <div className="container">
+              <div className="">
                 <div className="dashboard-inner-data2">
                   <p>Time</p>
                   <p>9:00 AM</p>
@@ -86,7 +95,7 @@ const Dashboard = () => {
             </div>
             <hr />
             <div className="btn-section">
-                <button className="reschedule-btn">Reschedule</button>
+                <button className="reschedule-btn" onClick={() => setShowRescheduleModal(true)}>Reschedule</button>
                 <button className="join-btn">Join Virtual</button>
             </div>
           </div>
@@ -117,8 +126,8 @@ const Dashboard = () => {
       </div>
       <div className="health-card">
         <h4 className="health-heading">Health Summary</h4>
-        <div className="container">
-            <div className="container health-data">
+        <div className="">
+            <div className="health-data">
                   <p>Current Conditions</p>
                   <div className="health-inner-data">
                     <button className="health-btn">Hypertension</button>
@@ -127,6 +136,15 @@ const Dashboard = () => {
             </div>
         </div>
       </div>
+      <BookAppointmentModal 
+        show={showModal} 
+        onClose={() => setShowModal(false)} 
+      />
+      <RescheduleModal 
+        show={showRescheduleModal} 
+        onClose={() => setShowRescheduleModal(false)}
+        currentAppointment={currentAppointment}
+      />
     </div>
   );
 };

@@ -1,14 +1,15 @@
-import "./assets/PatientStyling.css";
+import "./Patient/PatientStyling.css";
 import { Routes, Route } from "react-router-dom";
-import PatientSidebar from "./assets/PatientSidebar";
-import DashboardPage from "./assets/DashboardPage";
-import Prescriptions from "./assets/Prescriptions";
-import MedicalReport from "./assets/MedicalReports";
-import Dispensingpage from "./assets/Prescriptions";
-import Appointment from "./assets/Appointment";
-import LabReport from "./assets/LabReport";
-import Billpayment from "./assets/Billpayment";
-import MyDocuments from "./assets/MyDocuments";
+import PatientSidebar from "./Patient/PatientSidebar";
+import DashboardPage from "./Patient/DashboardPage"
+import MedicalReport from "./Patient/MedicalReports";
+import  Prescriptions from "./Patient/Prescriptions";
+import Appointment from "./Patient/Appointment";
+import LabReport from "./Patient/LabReport";
+import Billpayment from "./Patient/Billpayment";
+import MyDocuments from "./Patient/MyDocuments";
+
+
 
 function App() {
   return (

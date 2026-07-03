@@ -5,7 +5,6 @@ import { LuCreditCard } from "react-icons/lu";
 import { FaRegBell } from "react-icons/fa";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import React, { useState } from "react";
-import BookAppointmentModal from "./BookAppointmentModal";
 
 
 const Dashboard = () => {

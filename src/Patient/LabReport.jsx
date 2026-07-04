@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
-import ViewResultsModal from "./view";
+import ViewResultsModal from "./View";
 import "./PatientStyling.css";
 
 function LabReport() {
@@ -38,8 +38,8 @@ function LabReport() {
     <div className="lab-page">
         <h2 className="lab-title">Lab Reports</h2>
         <p className="lab-subtitle">View your laboratory test results</p>
-        <div className="card body-card">
-            <div className="card-body d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div className="card body-card1">
+            <div className="card-body2 d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div>
                     <h5 className="report-title">HbA1c</h5>
                     <p className="report-text">Ordered by Dr. James Wilson - 2026-01-03 10:30</p>
@@ -48,7 +48,7 @@ function LabReport() {
                     <button className="btn btn-light">
                        <MdOutlineFileDownload className="me-1" />Download PDF
                     </button>
-                    <button className="btn btn-primary" onClick={() => setShowModal(true)}>View Results
+                    <button className="btn1 btn-primary" onClick={() => setShowModal(true)}>View Results
                     </button>
                 </div>
             </div>

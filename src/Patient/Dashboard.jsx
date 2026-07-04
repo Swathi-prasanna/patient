@@ -5,6 +5,8 @@ import { LuCreditCard } from "react-icons/lu";
 import { FaRegBell } from "react-icons/fa";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import React, { useState } from "react";
+import BookAppointmentModal from "./BookAppointmentModal";
+import RescheduleModal  from "./RescheduleModal";
 
 
 
@@ -136,15 +138,8 @@ const Dashboard = () => {
             </div>
         </div>
       </div>
-      <BookAppointmentModal 
-        show={showModal} 
-        onClose={() => setShowModal(false)} 
-      />
-      <RescheduleModal 
-        show={showRescheduleModal} 
-        onClose={() => setShowRescheduleModal(false)}
-        currentAppointment={currentAppointment}
-      />
+      <BookAppointmentModal show={showModal} onClose={() => setShowModal(false)} />
+      <RescheduleModal show={showRescheduleModal} onClose={() => setShowRescheduleModal(false)} currentAppointment={currentAppointment}/>
     </div>
   );
 };

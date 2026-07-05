@@ -48,7 +48,7 @@ function LabReport() {
                     <button className="btn btn-light">
                        <MdOutlineFileDownload className="me-1" />Download PDF
                     </button>
-                    <button className="btn1 btn-primary" onClick={() => setShowModal(true)}>View Results
+                    <button className="btn btn-primary" onClick={() => setShowModal(true)}>View Results
                     </button>
                 </div>
             </div>

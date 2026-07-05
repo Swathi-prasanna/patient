@@ -11,8 +11,9 @@ import RescheduleModal  from "./RescheduleModal";
 
 
 const Dashboard = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showBookModal, setShowBookModal] = useState(false);
   const [showRescheduleModal, setShowRescheduleModal] = useState(false);
+ 
 
   const currentAppointment = {
     doctor: "Dr. James Wilson",
@@ -31,7 +32,7 @@ const Dashboard = () => {
             </p>
           </div>
           <div>
-            <button className="appointment-btn" onClick={() => setShowModal(true)}>
+            <button className="appointment-btn" onClick={() =>setShowBookModal(true)}>
               <CiCalendar size={20} color="white" />
               Book Appointment
             </button> 
@@ -138,8 +139,8 @@ const Dashboard = () => {
             </div>
         </div>
       </div>
-      <BookAppointmentModal show={showModal} onClose={() => setShowModal(false)} />
-      <RescheduleModal show={showRescheduleModal} onClose={() => setShowRescheduleModal(false)} currentAppointment={currentAppointment}/>
+        <BookAppointmentModal show={showBookModal} onClose={() => setShowBookModal(false)}/>
+       <RescheduleModal show={showRescheduleModal} onClose={() => setShowRescheduleModal(false)}/>
     </div>
   );
 };

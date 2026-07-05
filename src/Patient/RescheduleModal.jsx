@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
+import { FaCheckCircle } from "react-icons/fa";
 import { LiaCheckCircleSolid } from "react-icons/lia";
+
 
 
 const RescheduleModal = ({ show, onClose }) => {
@@ -58,12 +60,12 @@ const RescheduleModal = ({ show, onClose }) => {
                 onChange={handleChange}></textarea>
             </div>
             <div className="footer">
-              <button type="button" className="cancel-btn" onClick={onClose}>
-                Cancel
-              </button>
               <button type="submit" className="confirm-btn">
                 <LiaCheckCircleSolid />
                 Confirm Reschedule
+              </button>
+               <button type="button" className="cancel-btn" onClick={onClose}>
+                Cancel
               </button>
             </div>
           </form>

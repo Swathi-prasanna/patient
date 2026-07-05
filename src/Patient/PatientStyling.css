@@ -2107,13 +2107,16 @@ textarea {
   resize: none;
 }
 .reschedule-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(15, 23, 42, 0.45);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+width: 1526;
+height: 890;
+opacity: 1;
+position: fixed;
+inset: 0;
+background: #00000080;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1000;
 }
 
 .reschedule-modal {
@@ -2125,18 +2128,31 @@ textarea {
 }
 
 .reschedule-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 22px 24px;
-  border-bottom: 1px solid #e2e8f0;
+
+font-weight: 600;
+font-style: Semibold;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: -0.6px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 22px 24px;
+border-bottom: 1px solid #e2e8f0;
+color: #0F172B;
+
 }
 
 .reschedule-header h2 {
-  margin: 0;
-  font-size: 28px;
-  font-weight: 600;
-  color: #0f172a;
+font-weight: 600;
+font-style: Semibold;
+font-size: 24px;
+line-height: 31.2px;
+letter-spacing: -0.6px;
+margin: 0;
+font-size: 28px;
+font-weight: 600;
+color: #0F172B;
 }
 
 .close-btn {
@@ -2151,26 +2167,45 @@ textarea {
 }
 
 .appointment-card {
-  background: #eef8ff;
+  border-top: 0.8px solid #B8E6FE;
+  background: #F0F9FF;
   border-left: 4px solid #0ea5e9;
   border-radius: 10px;
   padding: 18px;
   margin-bottom: 24px;
+  text-align: left;
 }
 
 .appointment-card h4 {
-  margin: 0 0 10px;
-  color: #0f172a;
+text-align: left;
+font-weight: 600;
+font-style: Semibold;
+font-size: 18px;
+line-height: 25.2px;
+letter-spacing: 0px;
+color: #0F172B;
+margin: 0 0 10px;
 }
 
 .appointment-card p {
-  margin: 0;
-  color: #334155;
+text-align: left;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #314158;
+margin: 0;
 }
 
 .appointment-card span {
-  color: #64748b;
-  font-size: 14px;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #45556C;
+font-size: 14px;
 }
 
 .row {
@@ -2237,7 +2272,7 @@ textarea {
 }
 
 .confirm-btn {
-  background: #00a6f4;
+  background: #00A6F4;
   color: white;
   border: none;
   border-radius: 8px;

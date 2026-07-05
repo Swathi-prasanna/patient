@@ -4,7 +4,8 @@ import { CiFileOn } from "react-icons/ci";
 import { HiOutlinePhotograph } from "react-icons/hi";
 import {FaEye} from "react-icons/fa";
 import  {FaDownload} from "react-icons/fa";
-import React, { useState } from "react";
+import Upload from "./Upload";
+
 
 
 function MyDocuments() {
@@ -43,7 +44,8 @@ function MyDocuments() {
             Upload and manage your medical documents, scans, and reports
           </p>
         </div>
-        <button className="btn upload-btn">
+        <button className="btn upload-btn"
+          onClick={() => setShowModal(true)}>
           <MdOutlineFileUpload  size={22} className="me-2" />
          Upload Document       
          </button>
@@ -116,7 +118,7 @@ function MyDocuments() {
           </div>
         ))}
       </div>
-      <UploadModal show={showModal} onClose={() => setShowModal(false)}/>
+      <Upload show={showModal} onClose={() => setShowModal(false)}/>
     </div>
   );
 }

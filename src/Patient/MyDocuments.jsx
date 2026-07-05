@@ -4,8 +4,11 @@ import { CiFileOn } from "react-icons/ci";
 import { HiOutlinePhotograph } from "react-icons/hi";
 import {FaEye} from "react-icons/fa";
 import  {FaDownload} from "react-icons/fa";
+import React, { useState } from "react";
+
 
 function MyDocuments() {
+  const [showModal, setShowModal] = useState(false);
   const [documents] = useState([
     {
       id: 1,
@@ -113,6 +116,7 @@ function MyDocuments() {
           </div>
         ))}
       </div>
+      <UploadModal show={showModal} onClose={() => setShowModal(false)}/>
     </div>
   );
 }

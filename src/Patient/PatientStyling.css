@@ -2055,14 +2055,6 @@ color: #0F172B;
   position: relative;
 }
 
-.input-icon svg {
-  position: absolute;
-  right: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #6b7280;
-}
-
 .input-icon input {
   padding-right: 40px;
 }
@@ -2128,7 +2120,6 @@ z-index: 1000;
 }
 
 .reschedule-header {
-
 font-weight: 600;
 font-style: Semibold;
 font-size: 24px;

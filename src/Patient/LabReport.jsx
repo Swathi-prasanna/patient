@@ -53,11 +53,7 @@ function LabReport() {
                 </div>
             </div>
         </div>
-        <ViewResultsModal 
-          show={showModal} 
-          onClose={() => setShowModal(false)} 
-          reportData={reportData}
-        />
+        <ViewResultsModal show={showModal} onClose={() => setShowModal(false)} reportData={reportData}/>
   </div>
   );
 }

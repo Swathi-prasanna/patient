@@ -15,7 +15,7 @@ function MedicalRecords() {
         <div className="card-body">
           <h5 className="section-title mb-3">Recent Visits</h5>
           <Card className="visit-card">
-            <div className="card-body1">
+            <div className="card-body">
               <div className="d-flex justify-content-between align-items-start flex-wrap">
                 <div className="visit-content">
                   <h5 className="visit-title">Follow-up Consultation</h5>
@@ -34,7 +34,7 @@ function MedicalRecords() {
                 <Button
                   variant="light"
                   className="download-btn mt-2 mt-md-0"
-                >
+>
                   <BsDownload className="me-2" />
                   Download
                 </Button>

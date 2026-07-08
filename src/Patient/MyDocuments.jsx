@@ -36,7 +36,7 @@ function MyDocuments() {
   ]);
 
   return (
-    <div className="container-fluid mydocuments-page">
+    <div className="container mydocuments-page">
       <div className="d-flex justify-content-between align-items-start mb-4">
         <div>
           <h2 className="page-title">My Documents</h2>
@@ -50,7 +50,7 @@ function MyDocuments() {
          Upload Document       
          </button>
       </div>
-      <div className="row g-4 mb-4">
+      <div className="row g-3 mb-4">
         <div className="col-md-4">
           <div className="summary-card">
             <div className="summary-title">
@@ -67,7 +67,7 @@ function MyDocuments() {
             <h6>1 Files</h6>
           </div>
         </div>
-        <div className="summarycol-md-4">
+        <div className="col-md-4">
           <div className="summary-card">
             <div className="summary-title">
                   Reports & PDFs

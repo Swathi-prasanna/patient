@@ -12,11 +12,11 @@ function MedicalRecords() {
         </p>
       </div>
       <Card className="record-card shadow-sm">
-        <div className="card-body">
+        <Card.Body>
           <h5 className="section-title mb-3">Recent Visits</h5>
           <Card className="visit-card">
             <div className="card-body">
-              <div className="d-flex justify-content-between align-items-start flex-wrap">
+              <div className="visit-header">                
                 <div className="visit-content">
                   <h5 className="visit-title">Follow-up Consultation</h5>
                   <p className="doctor-date">
@@ -31,15 +31,14 @@ function MedicalRecords() {
                     Follow-up in 3 months.
                   </p>
                 </div>
-                <Button variant="light"
-                  className="download-btn mt-2 mt-md-0">
+                <Button variant="light"className="download-btn1 mt-2 mt-md-0">
                   <BsDownload className="me-2" />
                   Download
                 </Button>
               </div>
             </div>
           </Card>
-        </div>
+        </Card.Body>
       </Card>
     </Container>
   );

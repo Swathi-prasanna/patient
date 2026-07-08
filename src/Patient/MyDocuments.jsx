@@ -37,7 +37,7 @@ function MyDocuments() {
 
   return (
     <div className="container-fluid mydocuments-page">
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex justify-content-between align-items-start mb-4">
         <div>
           <h2 className="page-title">My Documents</h2>
           <p className="page-subtitle">
@@ -67,7 +67,7 @@ function MyDocuments() {
             <h6>1 Files</h6>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="summarycol-md-4">
           <div className="summary-card">
             <div className="summary-title">
                   Reports & PDFs
@@ -81,10 +81,8 @@ function MyDocuments() {
           My Uploaded Documents
         </h4>
         {documents.map((doc) => (
-          <div
-            className="document-card d-flex justify-content-between align-items-center"
-            key={doc.id}
-          >
+          <div className="document-card d-flex justify-content-between align-items-center"
+            key={doc.id}>
             <div className="d-flex align-items-start">
                 <div className="file-icon" style={{ color: doc.color }}>
                 {doc.icon}

@@ -31,10 +31,8 @@ function MedicalRecords() {
                     Follow-up in 3 months.
                   </p>
                 </div>
-                <Button
-                  variant="light"
-                  className="download-btn mt-2 mt-md-0"
->
+                <Button variant="light"
+                  className="download-btn mt-2 mt-md-0">
                   <BsDownload className="me-2" />
                   Download
                 </Button>

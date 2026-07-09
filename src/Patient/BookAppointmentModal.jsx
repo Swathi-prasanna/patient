@@ -92,4 +92,4 @@ const BookAppointmentModal = ({ show, onClose }) => {
   );
 };
 
-export default BookAppointmentModal;
+export default BookAppointmentModal ;

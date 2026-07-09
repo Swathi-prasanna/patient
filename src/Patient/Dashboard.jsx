@@ -5,7 +5,7 @@ import { LuCreditCard } from "react-icons/lu";
 import { FaRegBell } from "react-icons/fa";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import React, { useState } from "react";
-import BookAppointmentModal from "./BookAppointmentModal";
+import  BookAppointmentModal from "./BookAppointmentModal";
 import RescheduleModal  from "./RescheduleModal";
 
 
@@ -36,6 +36,7 @@ const Dashboard = () => {
               <CiCalendar size={20} color="white" />
               Book Appointment
             </button> 
+            <BookAppointmentModal show={showBookModal} onClose={() => setShowBookModal(false)}/>
           </div>
         </div>
       </div>
@@ -101,6 +102,7 @@ const Dashboard = () => {
                 <button className="reschedule-btn" onClick={() => setShowRescheduleModal(true)}>Reschedule</button>
                 <button className="join-btn">Join Virtual</button>
             </div>
+            <RescheduleModal show={showRescheduleModal} onClose={() => setShowRescheduleModal(false)}/>
           </div>
         </div>
         <div className="dashboard-inner-cards">
@@ -150,8 +152,6 @@ const Dashboard = () => {
       </div>
       </div>
       </div>
-        <BookAppointmentModal show={showBookModal} onClose={() => setShowBookModal(false)}/>
-       <RescheduleModal show={showRescheduleModal} onClose={() => setShowRescheduleModal(false)}/>
     </div>
   );
 };

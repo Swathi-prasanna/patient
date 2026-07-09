@@ -46,7 +46,7 @@ const RescheduleModal = ({ show, onClose }) => {
             <div className="row">
               <div className="form-group">
                 <label>New Date *</label>
-                <input type="text" name="date"placeholder="" value={formData.date} onChange={handleChange}required/>
+                <input type="text" name="date" placeholder="" value={formData.date} onChange={handleChange}required/>
               </div>
               <div className="form-group">
                 <label>New Time *</label>

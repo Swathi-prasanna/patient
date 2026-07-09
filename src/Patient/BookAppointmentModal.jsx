@@ -59,7 +59,7 @@ const BookAppointmentModal = ({ show, onClose }) => {
              </div>
             <div className="form-group">
               <label>Preferred Time *</label>
-              <input type="text" name="date"placeholder="" value={formData.date} onChange={handleChange}required/>
+              <input type="text" name="time" placeholder="" value={formData.date} onChange={handleChange}required/>
                </div>
           </div>
           <div className="form-group">

@@ -1,4 +1,4 @@
-import "./Patient/PatientStyling.css";
+import "./PatientStyling.css";
 import { Routes, Route } from "react-router-dom";
 import PatientSidebar from "./Patient/PatientSidebar";
 import DashboardPage from "./Patient/DashboardPage"

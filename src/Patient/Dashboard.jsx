@@ -129,15 +129,26 @@ const Dashboard = () => {
       </div>
       <div className="health-card">
         <h4 className="health-heading">Health Summary</h4>
-        <div className="">
-            <div className="health-data">
-                  <p>Current Conditions</p>
-                  <div className="health-inner-data">
-                    <button className="health-btn">Hypertension</button>
-                    <button className="health-btn">Type 2 Diabetes</button>
-                  </div>
-            </div>
-        </div>
+        <div className="health-summary">
+          <div className="health-data">
+            <p className="health-title">
+              Current Conditions</p>
+              <div className="health-inner-data">
+                <button className="health-btn">Hypertension</button>
+                <button className="health-btn">Type 2 Diabetes</button>
+           </div>
+      </div>
+      <div className="health-data">
+        <p className="health-title">Allergies</p>
+        <button className="allergy-btn">
+          Penicillin
+          </button>
+      </div>
+      <div className="health-data">
+        <p className="health-title">Blood Group</p>
+        <h6 className="blood-group">O+ Positive</h6>
+      </div>
+      </div>
       </div>
         <BookAppointmentModal show={showBookModal} onClose={() => setShowBookModal(false)}/>
        <RescheduleModal show={showRescheduleModal} onClose={() => setShowRescheduleModal(false)}/>

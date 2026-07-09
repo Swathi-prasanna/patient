@@ -4,7 +4,7 @@ import { CiFileOn } from "react-icons/ci";
 import { HiOutlinePhotograph } from "react-icons/hi";
 import {FaEye} from "react-icons/fa";
 import  {FaDownload} from "react-icons/fa";
-import Upload from "./Upload";
+import Upload from "./upload";
 
 
 
@@ -36,9 +36,9 @@ function MyDocuments() {
   ]);
 
   return (
-    <div className="container mydocuments-page">
-      <div className="d-flex justify-content-between align-items-start mb-4">
-        <div>
+    <div className="mydocuments-page">
+      <div className="documents-header">    
+         <div>
           <h2 className="page-title">My Documents</h2>
           <p className="page-subtitle">
             Upload and manage your medical documents, scans, and reports
@@ -92,7 +92,7 @@ function MyDocuments() {
                   {doc.name}
                 </h5>
                 <div className="document-meta">
-                  <span className="badge bg-primary me-2">
+                  <span className="document-badge">
                     {doc.type}
                   </span>
                   <span>Size: {doc.Size}</span>

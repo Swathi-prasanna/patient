@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import ViewResultsModal from "./View";
-import "./PatientStyling.css";
 
 function LabReport() {
   const [showModal, setShowModal] = useState(false);

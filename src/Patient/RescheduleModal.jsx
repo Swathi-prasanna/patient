@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import { FaCheckCircle } from "react-icons/fa";
 import { LiaCheckCircleSolid } from "react-icons/lia";
 
 
@@ -46,11 +45,11 @@ const RescheduleModal = ({ show, onClose }) => {
             <div className="row">
               <div className="form-group">
                 <label>New Date *</label>
-                <input type="text" name="date" placeholder="" value={formData.date} onChange={handleChange}required/>
+                <input type="date" name="date" placeholder="" value={formData.date} onChange={handleChange}required/>
               </div>
               <div className="form-group">
                 <label>New Time *</label>
-                <input type="text" name="time" placeholder="" value={formData.time} onChange={handleChange}
+                <input type="time" name="time" placeholder="" value={formData.time} onChange={handleChange}
                   required/>
               </div>
             </div>

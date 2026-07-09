@@ -13,6 +13,10 @@ import MyDocuments from "./Patient/MyDocuments";
 
 function App() {
   return (
+    <div className="app-layout">
+      <PatientSidebar />
+
+      <div className="content">
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/PrescriptionPage" element={<Appointment />} />
@@ -22,6 +26,8 @@ function App() {
           <Route path="/upload" element={<MyDocuments />} />
           <Route path="/DispensigPage" element={<Billpayment />} />
         </Routes>
+      </div>
+    </div>
   );
 }
 
